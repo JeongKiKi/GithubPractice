@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		685CCF412BD734080093FE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CCF402BD734080093FE58 /* AppDelegate.swift */; };
 		685CCF432BD734080093FE58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CCF422BD734080093FE58 /* SceneDelegate.swift */; };
-		685CCF452BD734080093FE58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CCF442BD734080093FE58 /* ViewController.swift */; };
+		685CCF452BD734080093FE58 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CCF442BD734080093FE58 /* LoginViewController.swift */; };
 		685CCF482BD734080093FE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685CCF462BD734080093FE58 /* Main.storyboard */; };
 		685CCF4A2BD7340A0093FE58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685CCF492BD7340A0093FE58 /* Assets.xcassets */; };
 		685CCF4D2BD7340A0093FE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685CCF4B2BD7340A0093FE58 /* LaunchScreen.storyboard */; };
+		685CCF5D2BD741A50093FE58 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CCF5C2BD741A50093FE58 /* LoginView.swift */; };
+		685CCF602BD7428F0093FE58 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 685CCF5F2BD7428F0093FE58 /* SnapKit */; };
+		685CCF622BD7491A0093FE58 /* UserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CCF612BD7491A0093FE58 /* UserStatus.swift */; };
+		685CCF642BD74F110093FE58 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CCF632BD74F110093FE58 /* LogoutView.swift */; };
+		685CCF662BD74F230093FE58 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CCF652BD74F230093FE58 /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		685CCF3D2BD734080093FE58 /* SocialLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685CCF402BD734080093FE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		685CCF422BD734080093FE58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		685CCF442BD734080093FE58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		685CCF442BD734080093FE58 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		685CCF472BD734080093FE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		685CCF492BD7340A0093FE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		685CCF4C2BD7340A0093FE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		685CCF4E2BD7340A0093FE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685CCF5C2BD741A50093FE58 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		685CCF612BD7491A0093FE58 /* UserStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatus.swift; sourceTree = "<group>"; };
+		685CCF632BD74F110093FE58 /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
+		685CCF652BD74F230093FE58 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				685CCF602BD7428F0093FE58 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +68,11 @@
 			children = (
 				685CCF402BD734080093FE58 /* AppDelegate.swift */,
 				685CCF422BD734080093FE58 /* SceneDelegate.swift */,
-				685CCF442BD734080093FE58 /* ViewController.swift */,
+				685CCF5C2BD741A50093FE58 /* LoginView.swift */,
+				685CCF442BD734080093FE58 /* LoginViewController.swift */,
+				685CCF632BD74F110093FE58 /* LogoutView.swift */,
+				685CCF652BD74F230093FE58 /* LogoutViewController.swift */,
+				685CCF612BD7491A0093FE58 /* UserStatus.swift */,
 				685CCF462BD734080093FE58 /* Main.storyboard */,
 				685CCF492BD7340A0093FE58 /* Assets.xcassets */,
 				685CCF4B2BD7340A0093FE58 /* LaunchScreen.storyboard */,
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = SocialLogin;
+			packageProductDependencies = (
+				685CCF5F2BD7428F0093FE58 /* SnapKit */,
+			);
 			productName = SocialLogin;
 			productReference = 685CCF3D2BD734080093FE58 /* SocialLogin.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 685CCF342BD734080093FE58;
+			packageReferences = (
+				685CCF5E2BD7428E0093FE58 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 685CCF3E2BD734080093FE58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685CCF452BD734080093FE58 /* ViewController.swift in Sources */,
+				685CCF452BD734080093FE58 /* LoginViewController.swift in Sources */,
+				685CCF622BD7491A0093FE58 /* UserStatus.swift in Sources */,
+				685CCF5D2BD741A50093FE58 /* LoginView.swift in Sources */,
 				685CCF412BD734080093FE58 /* AppDelegate.swift in Sources */,
+				685CCF662BD74F230093FE58 /* LogoutViewController.swift in Sources */,
+				685CCF642BD74F110093FE58 /* LogoutView.swift in Sources */,
 				685CCF432BD734080093FE58 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		685CCF5E2BD7428E0093FE58 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		685CCF5F2BD7428F0093FE58 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 685CCF5E2BD7428E0093FE58 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 685CCF352BD734080093FE58 /* Project object */;
 }
